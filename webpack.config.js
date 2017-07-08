@@ -3,6 +3,7 @@ var path = require('path');
 
 module.exports = {
   watch: true,
+  target: 'electron',
   entry: {
     app: ['webpack/hot/dev-server', './app/entry.js'],
   },
